@@ -2,7 +2,7 @@
 
 A production-grade, modern fintech finance dashboard built with React, TypeScript, Tailwind CSS, and Recharts.
 
-![Finio Dashboard](https://via.placeholder.com/1200x630/1a56db/ffffff?text=Finio+Finance+Dashboard)
+<img width="1919" height="930" alt="image" src="https://github.com/user-attachments/assets/fbf8b1bf-5bc3-42db-bf63-1bef5b57728a" />
 
 ---
 
