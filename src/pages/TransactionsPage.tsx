@@ -6,7 +6,6 @@ import { TransactionFilters } from '@/components/transactions/TransactionFilters
 import { TransactionTable } from '@/components/transactions/TransactionTable';
 import { TransactionModal } from '@/components/transactions/TransactionModal';
 import { exportTransactionsToCSV } from '@/utils/csvExport';
-import { cn } from '@/utils/cn';
 import type { Transaction } from '@/types';
 
 export const TransactionsPage = () => {

@@ -16,7 +16,6 @@ export const AnimatedCounter = ({
   decimals = 0,
 }: AnimatedCounterProps) => {
   const [display, setDisplay] = useState(0);
-  const startRef = useRef<number | null>(null);
   const frameRef = useRef<number>(0);
 
   useEffect(() => {

@@ -8,7 +8,6 @@ import {
   Settings,
   HelpCircle,
   Zap,
-  ChevronRight,
   X,
   ChevronLeft,
 } from 'lucide-react';

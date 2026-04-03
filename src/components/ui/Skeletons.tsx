@@ -1,11 +1,13 @@
 import { cn } from '@/utils/cn';
+import { CSSProperties } from 'react';
 
 interface SkeletonProps {
   className?: string;
+  style?: CSSProperties;
 }
 
-export const Skeleton = ({ className }: SkeletonProps) => (
-  <div className={cn('skeleton rounded-lg', className)} />
+export const Skeleton = ({ className, style }: SkeletonProps) => (
+  <div className={cn('skeleton rounded-lg', className)} style={style} />
 );
 
 export const SummaryCardSkeleton = () => (

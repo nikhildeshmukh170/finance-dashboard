@@ -1,8 +1,6 @@
-import { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Search, SlidersHorizontal, X, ArrowUpDown } from 'lucide-react';
+import { Search, X, ArrowUpDown } from 'lucide-react';
 import { useFinanceStore } from '@/store/useFinanceStore';
-import { useDebounce } from '@/hooks/useDebounce';
 import { cn } from '@/utils/cn';
 import type { TransactionCategory, TransactionType } from '@/types';
 
@@ -14,7 +12,6 @@ const categories: (TransactionCategory | 'all')[] = [
 
 export const TransactionFilters = () => {
   const { filters, setFilters, resetFilters } = useFinanceStore();
-  const debouncedSearch = useDebounce(filters.search, 300);
 
   const hasActiveFilters =
     filters.type !== 'all' ||
