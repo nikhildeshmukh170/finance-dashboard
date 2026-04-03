@@ -7,7 +7,6 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  ReferenceLine,
 } from 'recharts';
 import { TrendingUp, TrendingDown, Award, Target, Zap } from 'lucide-react';
 import { useFinanceStore } from '@/store/useFinanceStore';

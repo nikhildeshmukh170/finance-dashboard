@@ -35,8 +35,8 @@ export const QuickTransfer = () => {
     addTransaction({
       title: `Quick Transfer to ${selectedContactObj.name}`,
       amount: amountNum,
-      type: 'expense',
-      category: 'Transfer',
+      type: 'transfer',
+      category: 'Other',
       date: new Date().toISOString(),
       description: `Quick transfer sent to ${selectedContactObj.name}`,
       status: 'completed',

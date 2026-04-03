@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { TrendingUp, TrendingDown, DollarSign, PiggyBank, Wallet, ArrowUpRight, ArrowDownRight } from 'lucide-react';
-import { formatCurrency, formatPercentage } from '@/utils/formatters';
+import { TrendingUp, TrendingDown, PiggyBank, Wallet, ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import { formatCurrency } from '@/utils/formatters';
 import { cn } from '@/utils/cn';
 import { SummaryCardSkeleton } from '@/components/ui/Skeletons';
 

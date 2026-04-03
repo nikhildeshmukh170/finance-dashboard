@@ -8,7 +8,6 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  Legend,
 } from 'recharts';
 import { Calendar, TrendingUp } from 'lucide-react';
 import { useFinanceStore } from '@/store/useFinanceStore';
@@ -41,7 +40,7 @@ const CustomTooltip = ({ active, payload, label }: any) => {
 };
 
 export const MoneyFlowChart = () => {
-  const { monthlyData, transactions } = useFinanceStore();
+  const { transactions } = useFinanceStore();
   const [period, setPeriod] = useState<ChartPeriod>('6M');
   const [activeLines, setActiveLines] = useState({ income: true, expense: true, savings: true });
 
